@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { word-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>蓝宏浩的简历</h1><ul><li><p><a href='#header-n41'>个人信息</a></p></li><li><p><a href='#header-n52'>联系方式</a></p></li><li><p><a href='#header-n63'>项目经验</a></p><ul><li><a href='#header-n64'>智能家居实验室改造项目（2017/3-2018/10）</a></li><li><a href='#header-n77'>六轴机械臂教育平台（2017/9-2018/10）</a></li><li><a href='#header-n89'>自动循迹无线视频遥控智能安全汽车模型（2018/3-2018/6）</a></li><li><a href='#header-n101'>多用途复杂地形救援机器人的设计与制作（2018/4-2018/6）</a></li><li><a href='#header-n109'>数控机床监控（2017/4-2017/5）</a></li></ul></li><li><p><a href='#header-n117'>个人经历</a></p></li><li><p><a href='#header-n169'>校内职务</a></p><ul><li><a href='#header-n170'>能动量机器人创新团队队长（2017/10-至今）</a></li><li><a href='#header-n173'>工程学人科技协会社团机器人组组长（2017/6-2018/9）</a></li><li><a href='#header-n176'>工程学人科技协会社团乔木宣传部负责人（2017/9-2018/10）</a></li></ul></li><li><p><a href='#header-n181'>获奖证书</a></p></li><li><p><a href='#header-n212'>技能证书</a></p></li><li><p><a href='#header-n221'>技能清单</a></p></li><li><p><a href='#header-n238'>个人评价</a></p></li><li><p><a href='#header-n249'>致谢</a></p></li></ul><h2><a name='header-n41' class='md-header-anchor '></a>个人信息</h2><p><img src='./img/蓝宏浩.jpg' alt='蓝宏浩' referrerPolicy='no-referrer' /></p><ul><li>蓝宏浩/男/1997</li><li>机械电子工程/本科/黑龙江工程学院</li><li>博客：<a href='blog.lanhonghao.cn'>blog.lanhonghao.cn</a></li><li>Github：<a href='github.com/lanhonghao'>github.com/lanhonghao</a></li></ul><h2><a name='header-n52' class='md-header-anchor '></a>联系方式</h2><ul><li>手机：18319368871</li><li>Email：<a href='mailto:Lanhonghao@126.com'>Lanhonghao@126.com</a></li><li>QQ：1039167461</li><li>微信号：18319368871</li></ul><hr /><h2><a name='header-n63' class='md-header-anchor '></a>项目经验</h2><h3><a name='header-n64' class='md-header-anchor '></a>智能家居实验室改造项目（2017/3-2018/10）</h3><p><img src='./img/智能家居实验室改造项目展示板1.jpg' alt='智能家居实验室改造项目展示板1' referrerPolicy='no-referrer' /></p><p><img src='./img/智能家居实验室改造项目展示板2.jpg' alt='智能家居实验室改造项目展示板2' referrerPolicy='no-referrer' /></p><p><img src='./img/智能家居实验室改造项目展示板3.jpg' alt='智能家居实验室改造项目展示板3' referrerPolicy='no-referrer' /></p><p><strong>项目描述</strong><span>	</span></p><p>智能家居实验室试点改造项目是省级重点大学生创新项目。做一套符合学校工业机器人实验室的智能家居布置。智能家居实验室试点改造项目是为了实验室环境进行设计的。智能家居实验室试点改造项目可以为实验室提升安全性、便利性，并实现节能环保的使用环境。智能家居实验室试点改造项目的实施可以改变固有的管理方式，更加便捷有效地掌握实验室的各方面信息，远程控制设备仪器的操作使用。由于不方便展示，于是制作了智能家居实验室改造项目展示板，方便更直观看到效果。</p><p><strong>责任描述</strong> <span>	</span></p><p>总负责人。全套设备的软硬件的设计和调试。</p><p><strong>成果说明</strong></p><ul><li>省级重点大学生创新项目</li></ul><p>&nbsp;</p><h3><a name='header-n77' class='md-header-anchor '></a>六轴机械臂教育平台（2017/9-2018/10）</h3><p><img src='./img/六轴机械臂教育平台.jpg' alt='六轴机械臂教育平台' referrerPolicy='no-referrer' /></p><p><img src='./img/六轴机械臂教育平台上位机.png' alt='六轴机械臂教育平台上位机' referrerPolicy='no-referrer' /></p><p><strong>项目描述</strong></p><p>机械臂，在工业上主要用于生产线的自动搬运、装配、焊接、喷涂等工业现场中有广泛的应用。六自由度机械臂是具有成熟完备的运动控制技术与先进的设计和教学理念有机结合的产物,既满足工业现场要求，也是教学、科研机构进行运动规划和编程系统设计的理想对象。 该无动力型机械臂的主体结构采用3D打印技术，在满足机械结构强度要求的前提下，具有机械结构质量轻，成本低，适合用于教学演示和大学生创新训练。该项目基于单片机控制，程序修改方便，控制方便和易于操作，该机械臂项目以大学生机器人教育、机器人人才的培养为目的，支持师生对机械臂进行轨迹规划和应用开发研究。</p><p><strong>责任描述</strong> <span>	</span>  <span>	</span> </p><p>项目成员。上位机软件设计，硬件的部分搭建。</p><p><strong>成果说明</strong></p><ul><li>2018年“邮储银行杯”黑龙江省智能机器人竞赛创新设计一等奖</li></ul><p> </p><h3><a name='header-n89' class='md-header-anchor '></a>自动循迹无线视频遥控智能安全汽车模型（2018/3-2018/6）</h3><p><img src='./img/自动循迹无线视频遥控智能安全汽车模型.jpg' alt='自动循迹无线视频遥控智能安全汽车模型' referrerPolicy='no-referrer' /></p><p><img src='./img/自动循迹无线视频遥控智能安全汽车模型上位机.png' alt='自动循迹无线视频遥控智能安全汽车模型上位机' referrerPolicy='no-referrer' /></p><p><strong>项目描述</strong></p><p>本设计是一种基于单片机控制的简易自动寻迹、无线视频遥控和集成安全判断系统的智能汽车设计方案,包括智能汽车系统构成硬件设计及上位机软件设计控制方法。 在简易自动寻迹模式下，智能汽车以arduino   uno为控制核心,用单片机产生pwm波,控制小车速度。智能汽车自动寻迹利用红外光电传感器对路面黑色轨迹进行检测,并将路面检测信号反馈给单片机。单片机对采集到的信号予以分析判断,及时控制驱动电机以调整智能汽车转向,从而使智能汽车能够沿着双黑色轨迹道路自动行驶,实现小车自动寻迹的目的，以此达到模仿真实生活中汽车在道路上的行驶状态。 智能汽车无线遥控是基于C#开发的一款在Windows系统环境下运行的智能汽车上位机,借助于WiFi技术和ZigBee技术设计和实现的一种无线遥控智能汽车新的解决方案。设计以电脑上位机控制平台、WiFi通讯模块、ZigBee数传模块、电机驱动模块等硬件模块组成的智能汽车模型。实现智能汽车的前进、后退、前左转弯、前右转弯、后左转弯、后右转弯等实时控制功能。并加入超声波模块检测智能汽车模型车外环境。</p><p><strong>责任描述</strong> <span>	</span></p><p>总负责人。全套设备的软硬件的设计和调试。</p><p><strong>成果说明</strong></p><ul><li>2018年全国机器人与人工智能技术大赛（黑龙江赛区）智能汽车设计（模型组）冠军（一等奖）</li></ul><p> </p><h3><a name='header-n101' class='md-header-anchor '></a>多用途复杂地形救援机器人的设计与制作（2018/4-2018/6）</h3><p><img src='./img/多用途复杂地形救援机器人.jpg' alt='多用途复杂地形救援机器人' referrerPolicy='no-referrer' /></p><p><img src='./img/多用途复杂地形救援机器人上位机.png' alt='多用途复杂地形救援机器人上位机' referrerPolicy='no-referrer' /></p><p><strong>项目描述</strong></p><p>在Arduino单片机与WI-FI通讯技术基础上，进行设计并制作一种多用途复杂地形救援机器人。该机器人具有远程图像传输，WI-FI远程控制，空气检测，生命特征检测功能。用来代替特殊环境人工搜救，降低救援人员的伤亡数量。 设计内容有整体机械结构及行走方案设计，下位机系统软硬件设计，上位机软件设计。通过机器人进行搜索，实时对上位机进行数据反馈，以确认生命特征、环境以及地貌等信息。为搜救人员提供有效、准确的信息。 该救援机器人能够准确传回清晰图像，生命特征检测，易燃易爆气体检测，能够连续翻越障碍物进行搜索，对即将救援地点进行全方位了解，从而达到降低危险的目的。</p><p><strong>责任描述</strong> <span>		</span></p><p>项目成员。Arduino单片机的编程，WI-FI通讯的搭建，上位机软件设计。</p><p> </p><h3><a name='header-n109' class='md-header-anchor '></a>数控机床监控（2017/4-2017/5）</h3><p><img src='./img/数控机床监控上位机主控制窗口.png' alt='数控机床监控上位机主控制窗口' referrerPolicy='no-referrer' /></p><p><img src='./img/数控机床监控上位机监控窗口.png' alt='数控机床监控上位机监控窗口' referrerPolicy='no-referrer' /></p><p><strong>项目描述</strong></p><p>该数控机床监控上位机使用C#语言编写。该上位机通过主界面窗口进行对子窗口的调用，分别监控机床设备的温度、压力、转速和流量。针对于子窗口程序的设计和优化，使子窗口的使用更方便更实用。针对于子窗口主程序，一共由五大模块组成，分别是与主窗口之间参数的传递、与下位机之间的串口通信、数据的波形化显示、实时数据的显示和报警系统。</p><p><strong>责任描述</strong> <span>	</span></p><p>总负责人。整套上位机的设计，以及Arduino检测装置。</p><hr /><h2><a name='header-n117' class='md-header-anchor '></a>个人经历</h2><p><strong>校内经历</strong></p><ul><li>2016年9月<span>	</span>参加工程学人科技协会社团</li><li>2016年10月<span>	</span>学习Arduino单片机</li><li>2016年12月<span>	</span>加入机械创新实验室</li><li>2016年12月<span>	</span>参加2016“哈工海渡杯”工业机器人虚拟仿真大赛决赛</li><li>2017年4月<span>	</span>学习C#上位机编写</li><li>2017年5月<span>	</span>使用C#完成数控机床监控上位机设计</li><li>2017年6月<span>	</span>参加第十五届“挑战杯”黑龙江省大学生课外学术科技作品竞赛</li><li>2017年6月<span>	</span>作为负责人申请黑龙江省大学生创新创业训练计划项目（智能家居实验室试点改造项目）并被批准为省级重点大学生创新项目</li><li>2017年6月<span>	</span>成为“灵莹科技公司”大学生创业实践项目成员</li><li>2017年6月<span>	</span>竞选工程学人科技协会社团机器人组组长成功</li><li>2017年7月<span>	</span>参加2017年&quot;大庆杯&quot;第十九届全国机器人锦标赛暨第八届国际仿人机器人奥林匹克大赛</li><li>2017年8月<span>	</span>学习linux操作系统，了解linux基本的命令操作</li><li>2017年9月<span>	</span>创建工程学人科技协会社团乔木宣传部兼任负责人</li><li>2017年9月<span>	</span>参加TRCC第六届全国机器人创意设计大赛暨第七届黑龙江省高校“龙建杯”创新创业机器人设计大赛</li><li>2017年10月<span>	</span>担任能动量机器人创新团队队长</li><li>2017年10月<span>	</span>作为学生领队带队参加2017年全国竞技机器人邀请赛</li><li>2018年5月<span>	</span>使用C#完成多用途复杂地形救援机器人的上位机设计</li><li>2018年6月<span>	</span>参加“儿童防走失可穿戴无线装置”大学生创业训练项目成员</li><li>2018年6月<span>	</span>作为学生领队带队参加全国机器人与人工智能技术大赛（黑龙江赛区）</li><li>2018年6月<span>	</span>担任机械创新实验室学生负责人</li><li>2018年9月<span>	</span>使用C#完成六轴机械臂教育平台的上位机设计</li><li>2018年10月<span>	</span>作为学生领队带队参加2018年“邮储银行杯”黑龙江省智能机器人竞赛</li><li>2019年5月<span>	</span>负责水下滑翔机项目的设计与制作。</li></ul><p><strong>校外经历</strong></p><ul><li>学校组织校外见习：中国兵器，大顶子山水电站，江苏哈工海渡工业机器人有限公司</li></ul><hr /><h2><a name='header-n169' class='md-header-anchor '></a>校内职务</h2><h3><a name='header-n170' class='md-header-anchor '></a>能动量机器人创新团队队长（2017/10-至今） </h3><p><strong>职务描述</strong><span>	</span></p><p>能动量机器人创新团队队长主要职能负责比赛前与比赛主办方沟通比赛规则，比赛的费用以及出行时间，人数，住宿以及负责团队比赛项目人员配置，器材准备，比赛预算，耗材购买，票据，比赛总结撰写。在职期间参加国家级比赛3个，省级比赛1个，团队获奖项目十余项。</p><h3><a name='header-n173' class='md-header-anchor '></a>工程学人科技协会社团机器人组组长（2017/6-2018/9）</h3><p><strong>职务描述</strong></p><p>主要职责是和搭档共同参与社团纳新活动，负责大一新成员的培训，主要内容为人形机器人编程知识以及基本的电路知识，组织机器人组成员的日常培训活动，与会长沟通汇报阶段成果</p><h3><a name='header-n176' class='md-header-anchor '></a>工程学人科技协会社团乔木宣传部负责人（2017/9-2018/10） </h3><p><strong>职务描述</strong></p><p>主要负责对于微信公众号的运营，对于每次比赛前的宣传招募新人</p><p> </p><hr /><h2><a name='header-n181' class='md-header-anchor '></a>获奖证书</h2><ul><li>2016-2017学年第一学期三等奖学金</li><li>2016-2017学年第二学期三等奖学金</li><li>2017-2018学年第一学期三等奖学金</li><li>2018-2019学年第一学期三等奖学金</li><li>第十五届“挑战杯”黑龙江省大学生课外学术科技作品竞赛<span>	</span>二等奖</li><li>2017年&quot;大庆杯&quot;第十九届全国机器人锦标赛暨第八届国际仿人机器人奥林匹克大赛仿人机器人八人舞比赛<span>		</span>一等奖</li><li>2017年&quot;大庆杯&quot;第十九届全国机器人锦标赛暨第八届国际仿人机器人奥林匹克大赛宠物机器人智能化创新设计比赛<span>	</span>一等奖</li><li>TRCC第六届全国机器人创意设计大赛暨第七届黑龙江省高校“龙建杯”创新创业机器人设计大赛机器人舞台表演类戏曲<span>	</span>一等奖</li><li>TRCC第六届全国机器人创意设计大赛暨第七届黑龙江省高校“龙建杯”创新创业机器人设计大赛工业机器人技术创意创新<span>	</span>一等奖</li><li>2017年全国竞技机器人邀请赛无人机专项二等奖</li><li>2017年全国竞技机器人邀请赛机器人舞蹈赛（多人舞）一等奖</li><li>全国机器人与人工智能技术大赛（黑龙江赛区）智能汽车设计（模型组）冠军（一等奖）</li><li>全国机器人与人工智能技术大赛（黑龙江赛区）智能文化创意设计二等奖</li><li>2018年“邮储银行杯”黑龙江省智能机器人竞赛创新设计<span>	</span>一等奖</li></ul><hr /><h2><a name='header-n212' class='md-header-anchor '></a>技能证书</h2><ul><li>C1驾驶证</li><li>三维数字化技术认证证书（UG）</li><li>全国计算机辅助技术培训项目二维CAD（机械设计方向）证书</li></ul><hr /><h2><a name='header-n221' class='md-header-anchor '></a>技能清单</h2><ul><li>熟悉<strong>Arduino</strong> 平台<strong>C语言</strong>程序设计,<strong>arduino单片机程序设计及电路设计</strong>,接触raspberry pi, plc程序设计。</li><li>有<strong>模电数电</strong>调试经验。</li><li>熟悉<strong>UG/Solidworks</strong> 3D<strong>设计</strong>。</li><li> 熟悉使用<strong>C#开发上位机软件</strong></li><li>熟悉Html，能够制作简单的静态网页。</li><li>了解Linux命令行基础操作。</li><li>熟练使用<strong>AltiumDesigner, keil</strong> ,Cura,RobotStudio, <strong>Autocad</strong>完成相关设计。</li><li>熟练使用<strong>office</strong>软件完成文件处理。</li></ul><hr /><h2><a name='header-n238' class='md-header-anchor '></a>个人评价</h2><ul><li>大学阶段有较多机器人类竞赛经历，<strong>动手能力强，有较强的创新能力</strong>。</li><li>热爱<strong>机器人制作</strong>，热爱<strong>DIY创作</strong>，热爱<strong>开源</strong>。</li><li>乐于钻研，勤奋务实，热情随和。</li><li>爱好阅读，足球运动。</li></ul><hr /><h2><a name='header-n249' class='md-header-anchor '></a>致谢</h2><p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p><p> </p><p> </p><p>PDF简历下载:<a href='./%E8%93%9D%E5%AE%8F%E6%B5%A9-18319368871.pdf'>点击这里</a></p></div>
+</body>
+</html>
